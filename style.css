@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(20, 20, 20);
+}
+
+html {
+    background-image: linear-gradient(to right, rgb(179, 240, 179), rgb(185, 185, 248));
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+body {
+    font-family: 'Secular One', sans-serif;
+}
+
+.geradores {
+    margin-top: 25px;
+}
+
+
+label {
+    font-size: 60px;
+    display: grid;
+    justify-items: center;
+}
+
+#myBtn2 {
+    margin-bottom: 60px;
+}
+
+button {
+    justify-items: center;
+    display: block;
+    font-size: 25px;
+    background-color: rgba(105, 105, 105, 0.2);
+    border: 1px solid azure;
+    padding: 5px 15px;
+    border-radius: 10px;
+    transition: 300ms ease-in-out;
+    font-family: 'Secular One', sans-serif;
+}
+
+button:hover {
+    background-color: rgb(105, 105, 105, 0.8);
+    color: azure;
+}
+
+input {
+    font-size: 25px;
+    border: none;
+}
+
+#div1 {
+    display: grid;
+    justify-items: center;
+    align-items:baseline;
+    padding: 1em;
+}
+
+#div2 {
+    display: grid;
+    justify-items: center;
+    align-items:baseline;
+    padding: 1em;
+}
+
+.animationLabel {
+    animation: anima 1s ease-in-out;
+}
+
+@keyframes anima {
+    0% {
+        position: relative;
+        bottom: -30px;
+        opacity: 0;
+    }
+    100% {
+        position: relative;
+        bottom: 0px;
+        opacity: 1;
+    }
+}
